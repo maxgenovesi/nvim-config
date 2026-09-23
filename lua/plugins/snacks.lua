@@ -2,8 +2,8 @@ return {
   {
     "folke/snacks.nvim",
     opts = {
-      -- Starting nvim with no file opens the explorer instead of the
-      -- dashboard. See the VimEnter autocmd in lua/config/autocmds.lua.
+      -- Starting nvim with no file opens an empty buffer -- no dashboard,
+      -- no explorer. Set this back to true to get LazyVim's dashboard.
       dashboard = { enabled = false },
 
       -- Don't highlight every other occurrence of the word under the cursor.
